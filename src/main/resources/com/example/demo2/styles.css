@@ -1,0 +1,36 @@
+#inputBox {
+  -fx-background-radius: 30px;
+}
+
+.scroll-pane .scroll-bar {
+  -fx-opacity: 0;
+}
+
+.scroll-pane {
+  -fx-background-color: transparent;
+  -fx-padding: 5 10 10 10;
+}
+#sentMessage {
+  -fx-background-color: white;
+}
+
+.userMessage {
+  -fx-padding: 5 10 5 10;
+  -fx-background-color: #635cdd;
+  -fx-text-fill: white;
+  -fx-font-size: 15;
+  -fx-background-radius: 15px;
+}
+
+.friendMessage {
+  -fx-padding: 5 10 5 10;
+  -fx-background-color: #d67598;
+  -fx-text-fill: white;
+  -fx-font-size: 15;
+  -fx-background-radius: 15px;
+}
+
+.read {
+  -fx-text-fill: black;
+  -fx-font-size: 12;
+}
